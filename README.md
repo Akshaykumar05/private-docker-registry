@@ -1,4 +1,7 @@
-# private-docker-registry
+# Docker-Private-Registry
+
+![image](https://github.com/user-attachments/assets/20144850-9e8c-475d-86dc-859ec6a94ee9)
+
 
 
 ### Step1: Installing docker registry
@@ -19,6 +22,21 @@
 
 ### Step 3: Running the Docker Registry
 * With the configuration in place, you can start the Docker Registry service using the following command:
+
+* Check the status of running container
+  ```
+  docker ps | grep cfe037d903f8
+  ```
+  <img width="777" alt="image" src="https://github.com/user-attachments/assets/f7e48863-bb41-4e0f-b722-b7f70269ba1f">
+
+
+
+### Check the url
+```
+http://localhost:5000/v2/
+```
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/1a401114-e113-4a37-807b-344c47a98dbd">
+
   
   
 
